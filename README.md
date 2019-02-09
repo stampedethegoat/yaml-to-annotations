@@ -21,5 +21,27 @@ Direct the `FILE_PATH` constant on [line 2](https://github.com/stampedethegoat/y
 
 Then run `node yaml-to-annotations.js` in your terminal
 
+### Example
+
+**conf.d/apache.yaml**
+
+```
+init_config:
+
+instances:
+  - apache_status_url: http://localhost/server-status?auto
+```
+
+**Kubernetes Annotation**
+```
+metadata:
+  name: container_identifier
+  annotations:
+    ad.datadoghq.com/container_identifier.check_names: []
+    ad.datadoghq.com/container_identifier.init_configs: []
+    ad.datadoghq.com/container_identifier.instances: [ {"apache_status_url": "http://localhost/server-status?auto"}]
+    ad.datadoghq.com/container_identifier.logs: []
+```
+
 ### Version Control
 - 02/08/18 `v0.0.1` --> First MVP Test
