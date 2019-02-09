@@ -1,9 +1,5 @@
 const fs = require('fs');
-//const FILE_PATH = './file-yamls/01-postgres.yaml';
-//const FILE_PATH = './file-yamls/02-nginx.yaml';
-//const FILE_PATH = './file-yamls/03-tomcat.yaml';
 const FILE_PATH = './file-yamls/04-httpcheck.yaml';
-//const FILE_PATH = './file-yamls/05-apache.yaml';
 
 const readFile = filePath => {
   let returnArr = [];
