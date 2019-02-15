@@ -45,3 +45,4 @@ metadata:
 
 ### Version Control
 - 02/08/18 `v0.0.1` --> First MVP Test
+- 02/15/18 `v0.0.2` --> Added js-yaml library, second MVP test
