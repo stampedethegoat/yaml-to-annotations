@@ -1,0 +1,15 @@
+{
+  "name": "yaml-to-annotations",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <span>This script will take your YAML file and parse it into a Kubernetes Annotation</span><br>   <span>Should be a Customer Facing Tool to Easily transition from On-Prem Settings to Kubernetes Annotations</span><br> </p>",
+  "main": "yaml-to-annotations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.12.1"
+  }
+}
