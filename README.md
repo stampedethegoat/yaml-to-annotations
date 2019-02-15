@@ -19,7 +19,7 @@ From your terminal, run `git clone git@github.com:stampedethegoat/yaml-to-annota
 ### Usage
 Direct the `FILE_PATH` constant on [line 2](https://github.com/stampedethegoat/yaml-to-annotations/blob/master/yaml-to-annotations.js#L2).
 
-Then run `node yaml-to-annotations.js` in your terminal
+Then run `node y-to-k8s.js` in your terminal
 
 ### Example
 
